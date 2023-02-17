@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* /* nav Bar  */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    margin-top: 3px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    gap: 45px;
+    font-size: 18px;
+    line-height: 20px;
+
+}
+
+.list-items {
+    color: #ffc233;
+    text-decoration: none;
+}
+
+.logo,
+.list-items {
+    cursor: pointer;
+}
+
+.order-btn {
+    padding: 10px 20px;
+    background-color: #ff505f;
+    color: white;
+    border: none;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 115px;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+main h1 {
+    font-size: 100px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    color: #ffc233;
+    line-height: 114px;
+    font-weight: 800;
+    font-family: 'Red Rose', cursive;
+}
+
+main button {
+    font-family: 'Red Rose', cursive;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #ff505f;
+}
